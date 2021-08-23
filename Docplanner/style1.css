@@ -1,0 +1,261 @@
+/* initialisation */
+@import url("https://fonts.googleapis.com/css2?family=Roboto:ital,wght@1,100&display=swap");
+* {
+  margin: 0;
+  padding: 0;
+  font-family: "Roboto", sans-serif;
+}
+
+body {
+  font-family: Arial, Helvetica, sans-serif;
+  font-weight: 400;
+  color: #747474;
+}
+
+/*Navbar section */
+
+.main-navbar {
+  overflow: auto;
+  position: fixed;
+  top: 0px;
+  z-index: 3;
+  width: 100%;
+  height: 75px;
+  background: hsla(0, 0%, 100%, 0.98);
+  display: flex;
+  justify-content: space-around;
+}
+.main-navbar img {
+  width: 268px;
+}
+
+.head-link {
+  margin-top: 30px;
+  margin-right: 15%;
+  white-space: nowrap;
+}
+
+.nav-link {
+  padding: 2%;
+}
+
+.nav-link a {
+  color: #747474;
+  text-decoration: none;
+}
+
+.nav-link a:hover {
+  color: #00b39b;
+  cursor: pointer;
+}
+
+#aboutus-link a {
+  color: #00b39b;
+}
+
+/* experience section */
+
+.experience {
+  /* boxmodel */
+  margin: 2% 12%;
+  /* flexbox */
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.experience img {
+  padding-top: 80px;
+}
+
+.experience h2 {
+  margin-top: 3%;
+  margin-bottom: 3%;
+  font-size: 2.125rem;
+  color: #00b39b;
+}
+
+.experience div {
+  display: flex;
+  justify-content: space-between;
+}
+
+.experience div p {
+  width: 45%;
+  line-height: 1.75;
+  color: #747474;
+  font-size: 16px;
+}
+
+/*services section*/
+
+.elements {
+  display: flex;
+  padding: 20px;
+}
+
+.patients {
+  background-color: #00ccb1;
+  margin-right: 20px;
+  padding: 80px;
+}
+
+.doctors {
+  background-color: #3d83df;
+  margin-right: 20px;
+  padding: 80px;
+}
+
+.clinics {
+  background-color: #1b2734;
+  padding: 80px;
+}
+
+h1,
+h2 {
+  color: white;
+}
+
+/* container section */
+
+.container {
+  padding: 20px;
+}
+.slogan-text {
+  display: flex;
+  justify-content: space-around;
+}
+.brand-logo {
+  display: flex;
+  justify-content: space-around;
+  flex-wrap: wrap;
+  align-items: center;
+  width: 60%;
+}
+.container span {
+  float: left;
+  width: 20%;
+  font-size: 1.625em;
+  margin: 0.25em 0 0.35em;
+  padding-right: 1em;
+  color: #00b39b;
+}
+
+/* Statis section*/
+
+.statis-section {
+  display: flex;
+  background-color: #e5faf8;
+  height: 600px;
+  width: 100%;
+  flex-direction: row;
+}
+
+#upstat-div {
+  margin-top: 50px;
+  width: 50%;
+  align-items: center;
+}
+
+#statis-slogan {
+  font-size: 2.2em;
+  justify-content: flex-start;
+  color: #00b39b;
+}
+
+#logo {
+  width: 50%;
+}
+
+.box {
+  background-color: #fff;
+  width: 228px;
+  height: 250px;
+  border-radius: 5px;
+  margin-top: 31px;
+  text-align: center;
+  display: flex;
+}
+
+#pays {
+  font-size: 15px;
+  display: flex;
+  flex-wrap: wrap;
+}
+
+.box img {
+  margin-top: 13%;
+  width: 40px;
+}
+
+.land-desc {
+  padding: 0%;
+  font-size: 13px;
+}
+
+.rd-title {
+  font-size: 20px;
+}
+
+.box-neighb {
+  margin-left: 25px;
+  margin-top: 15px;
+}
+
+/*text-section*/
+
+.text-container {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+}
+
+#improve {
+  margin-top: 3%;
+  margin-bottom: 3%;
+  font-size: 2.125rem;
+  color: #00b39b;
+  flex-wrap: wrap;
+  width: 60%;
+  margin-left: 20%;
+}
+
+/* countries */
+.countries {
+  /* boxmodel */
+  margin: 2% 12%;
+  /* flexbox */
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-between;
+}
+.country {
+  margin-bottom: 5%;
+}
+
+.country div {
+  display: flex;
+  justify-content: space-between;
+  padding: 5% 2%;
+}
+
+/*FOOTER*/
+
+footer {
+  height: 75px;
+  width: 100%;
+  border-top: 1px solid grey;
+  font-size: 14px;
+  color: #ababab;
+  text-align: center;
+  line-height: 2.2;
+}
+
+footer a {
+  color: #3d83df;
+  text-decoration: none;
+}
+
+footer a:hover {
+  text-decoration: underline;
+}
